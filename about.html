@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STEM fanlar </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+        <a href="index.html">
+            <img class="stemImage" src="./eduford_img/eduford_img/logo.png">
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html"> Bosh sahifa </a> </li>
+                    <li> <a href="course.html"> Kurslar </a> </li>
+                    <li> <a href="about.html"> Biz haqimizda </a> </li>
+                    <li> <a href="blog.html"> Maqolalar </a> </li>
+                    <li> <a href="contact.html"> Yordam </a> </li>
+                </ul>
+
+            </div>
+        </a>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1 style="margin-top: -50px;">Biz Haqimizda</h1>
+
+</section>
+
+<!-- - - - - - ABOUT - US - CONTENT - - - - - -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1> Jamoamiz maqsadi </h1>
+                <p style="font-weight: 400;">Jamoamiz o'z ilmiy salohiyatiga ega dunyodagi
+                    boshqa universitet olimlari bilan bellasha oladigan
+                    hamda o'z oldiga yuksak maqsadlarni qo'ygan 
+                    shijoatli yoshlardan tashkil topgan. </p>
+               
+                <a class="hero-btn red-btn" href="https://t.me/+4ShToSL7X5o4NDYy">Jamoa a'zolari bilan tanishing.</a>
+        </div>
+        <div class="about-col">
+           <img src="./eduford_img/eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+ <!-- - - - - - F O O T E R - - - - - -->
+
+ <section class="footer">
+     <h1>Biz haqimizda</h1>
+     <p style="font-weight: 500;"> Biz jamoamiz bilan oldimizga qo'ygan oliy maqsadlarimizdan biri 
+         bu STEM fanlar orqali <br> maktab  o'quvchilari uchun dastur ishlab chiqish. 
+        Ushbu dastur orqali kelajakda millionlab O'zbek yoshlariga ta'lim berishdir </p>
+
+        <div style="font-size: 20px;" class="icons">
+            <i style="padding: 5px 5px; color: #3b5998;" class="fa fa-facebook"></i>
+            <i style="padding: 5px 5px; color: #00acee;" class="fa fa-twitter"></i>
+            <i style="padding: 5px 5px; color: rgb(255, 60, 60);" class="fa fa-instagram"></i>
+            <i style="padding: 5px 5px; color: rgb(13, 227, 255)" class="fa fa-telegram"></i>
+            <i style="padding: 5px 5px; color: #c4302b;" class="fa fa-youtube"></i>
+            <i style="padding: 5px 5px; color: #0e76a8" class="fa fa-linkedin"></i>
+            
+        </div>
+
+        <p style="font-size: 20px; font-weight: 600; font-style: italic;">
+            Made with <i style="color:red" class="fa fa-heart"></i> by Kenjaeva Tahmina
+        </p>
+
+ </section>
+
+ <!-- - - - - - S C R I P T - - - - - -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
